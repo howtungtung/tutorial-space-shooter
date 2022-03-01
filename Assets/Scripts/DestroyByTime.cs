@@ -8,6 +8,6 @@ public class DestroyByTime : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Destroy(gameObject, lifetime);
+        Destroy(gameObject, lifetime);//設定幾秒後自我刪除
     }
 }

@@ -9,7 +9,7 @@ public class Mover : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
-        rb.velocity = transform.forward * speed;
+        rb = GetComponent<Rigidbody>();//自動關聯身上的rigidbody組件
+        rb.velocity = transform.forward * speed;//對rigidbody設定速度
     }
 }
